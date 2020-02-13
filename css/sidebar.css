@@ -43,7 +43,7 @@
 
 @media screen and (max-width: 414px) {
   .sidebar {
-    margin-top: 100px;
+    margin-top: 200px;
     grid-column: 1 /-1;
   }
 }
