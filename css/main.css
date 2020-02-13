@@ -68,25 +68,9 @@ h3 {
 
 @media screen and (max-width: 400px) {
   .content {
-
-
-  margin-right: 300px;
+    margin-left: 0px;
+    grid-column: 1 /-1;
 
   }
-
-
 }
 
-@media only screen 
-    and (device-width : 375px) 
-    and (device-height : 812px) 
-    and (-webkit-device-pixel-ratio : 3) {
-      .content {
-
-
-        margin-right: 300px;
-      
-        }
-      
-
-     }

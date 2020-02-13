@@ -68,11 +68,3 @@ ul{
 }
 
 
-@media screen and (max-width: 375px) {
-    section {
-        padding: 10px;
-    }
-    .content img {
-        margin-right: 30%;
-    }
-}
