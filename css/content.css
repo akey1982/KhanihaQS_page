@@ -70,9 +70,9 @@ ul{
 
 @media screen and (max-width: 375px) {
     section {
-        margin-right: 100px;
+        padding: 10px;
     }
     .content img {
-        margin-left: 30%;
+        margin-right: 30%;
     }
 }
