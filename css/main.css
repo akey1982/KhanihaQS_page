@@ -73,6 +73,12 @@ h3 {
 @media screen and (max-width: 375px) {
 
   .container {
-      margin-right: 50%;
+      margin-right: 100%;
+  }
+
+  li{
+
+    font-size: small;
+
   }
 }
