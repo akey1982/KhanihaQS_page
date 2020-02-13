@@ -1,0 +1,21 @@
+
+/*footer*/
+.footer {
+  display: flex;
+  grid-column: 1 / -1;
+  grid-row: 3 /-1;
+  background-color: #73AD59;
+  box-shadow: 6px 8px 6px -6px #73AD59;
+  color: white;
+
+}
+
+footer {
+  margin: 20px;
+}
+
+footer > img {
+  position: absolute;
+  right: 50px;
+  height: 30px;
+}

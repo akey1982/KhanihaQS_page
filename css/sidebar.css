@@ -1,0 +1,49 @@
+.sidebar {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  grid-row: 1/2;
+  border-right: 1px #b3e6b3 solid;
+}
+
+.sidebar > nav > ul > li {
+
+  margin: 30px;
+}
+
+.sidebar> nav > ul {
+  padding: 10px;
+  border-top: 1px solid #b3e6b3;
+  border-bottom: 1px solid #b3e6b3;
+  margin-top: 200x;
+}
+
+.sidebar > nav > ul > li >a {
+  text-decoration: none;
+  color: black;
+}
+
+
+.sidebar >nav > ul> li > a:hover {
+  text-transform: capitalize;
+  transition: all 0.3s ease-in;
+}
+
+@media screen and (max-width: 1500px) {
+  .sidebar {
+    border-right: none;
+  }
+  .sidebar > nav > ul {
+    margin-right: 50px;
+  }
+}
+
+
+@media screen and (max-width: 375px) {
+  .sidebar {
+    margin-top: 100px;
+    grid-column: 1 /-1;
+  }
+}
