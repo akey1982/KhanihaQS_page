@@ -70,12 +70,13 @@ h3 {
 
 
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
 
-  .container {
-    
-  margin-right: 300px;
-   
+
+.content{
+
+
+margin-right: 350px;
 
 }
 
@@ -83,7 +84,7 @@ h3 {
 
     font-size: 3px;
 
-    background-color: yellow;
+    background-color: red;
 
   }
 }
