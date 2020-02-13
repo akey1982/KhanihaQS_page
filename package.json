@@ -1,0 +1,19 @@
+{
+  "name": "khanihaqs_page",
+  "version": "1.0.0",
+  "description": "KhanihaQS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akey1982/KhanihaQS_page.git"
+  },
+  "author": "Alexander Khaniha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akey1982/KhanihaQS_page/issues"
+  },
+  "homepage": "https://github.com/akey1982/KhanihaQS_page#readme"
+}
