@@ -10,7 +10,7 @@ grid main page
 
 .container {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   grid-template-rows: 1fr auto auto;
   grid-gap: 10px;
   width: 100%;
@@ -73,12 +73,17 @@ h3 {
 @media screen and (max-width: 375px) {
 
   .container {
-      margin-right: 100px;
-  }
+    
+  margin-right: 300px;
+   
+
+}
 
   li{
 
-    font-size: small;
+    font-size: 3px;
+
+    background-color: yellow;
 
   }
 }
