@@ -11,7 +11,6 @@
 
 
 
-
 [id *='section'] {
     height: 100%;
     width: 500px;
@@ -59,12 +58,16 @@ article {
 }
 
 
-
-
 ul{
-
     list-style-type: square;
-
 }
 
 
+@media screen and (max-width: 414px) {
+    .content {
+      grid-column: 1 /-1;
+  
+    }
+  }
+  
+  
