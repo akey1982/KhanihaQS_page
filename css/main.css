@@ -23,17 +23,29 @@ grid main page
 .container-cards {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   grid-gap: 10px;
   margin-top: 300px;
   width: 100%;
 }
 
-.container>div {
+.container > div {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+
+.container-cards > div {
+  
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
 
 body {
   font-family: 'PT Sans', sans-serif;
@@ -67,7 +79,7 @@ h3 {
 }
 
 @media screen and (max-width: 414px) {
-  .content {
+  .container-cards {
     grid-column: 1 /-1;
 
   }

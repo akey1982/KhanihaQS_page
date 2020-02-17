@@ -10,6 +10,17 @@
 }
 
 
+.content img {
+    display: flex;
+    height: 100px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    margin-top: 20px;
+}
+
+
 
 [id *='section'] {
     height: 100%;
@@ -34,15 +45,6 @@ section {
     
 }
 
-.content img {
-    display: flex;
-    height: 100px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 150px;
-    margin-top: 20px;
-}
 
 
 article {
@@ -65,6 +67,13 @@ ul{
 
 @media screen and (max-width: 414px) {
     .content {
+      grid-column: 1 /-1;
+  
+    }
+  }
+  
+  @media screen and (max-width: 414px) {
+    .container-cards {
       grid-column: 1 /-1;
   
     }
