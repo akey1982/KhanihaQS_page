@@ -20,14 +20,7 @@ grid main page
   grid blog page
   */
 
-.container-cards {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-gap: 10px;
-  margin-top: 300px;
-  width: 100%;
-}
+
 
 .container > div {
   display: flex;
@@ -36,15 +29,6 @@ grid main page
 }
 
 
-.container-cards > div {
-  
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-
-}
 
 
 body {
@@ -81,6 +65,7 @@ h3 {
 @media screen and (max-width: 414px) {
   .container-cards {
     grid-column: 1 /-1;
+
 
   }
 }
