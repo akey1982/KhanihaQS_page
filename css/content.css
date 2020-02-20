@@ -22,7 +22,7 @@
 
 .content-imp {
     display: flex;
-    justify-content: center;
+    justify-content:left;
     flex-wrap: wrap;
     margin-top: 200px;
     margin-bottom: 100px;
